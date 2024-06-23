@@ -1,0 +1,17 @@
+{
+  "name": "coolang",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node test/lexer.test.ts",
+    "build": "tsc"
+  },
+  "keywords": ["coolang", "lexer"],
+  "author": "Nima Yonten",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.5.2"
+  }
+}
